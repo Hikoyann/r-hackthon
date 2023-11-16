@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed.js",
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "@prisma/client": "^5.5.2",
