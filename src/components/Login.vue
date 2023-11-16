@@ -7,18 +7,18 @@ import 'tailwindcss/tailwind.css'
 
 // #region global state
 const userName = inject("userName")
-// #endregion
+
 
 // #region local variable
 const router = useRouter()
 const socket = socketManager.getInstance()
-// #endregion
+
 
 // #region reactive variable
 const inputUserName = ref("")
 const inputPassword = ref("")
 const isLogin = ref(false) //Trueならログイン、Falseなら新規登録
-// #endregion
+
 
 
 
@@ -94,7 +94,7 @@ const onSubmit = () => {
 
 
 
-// // #endregion
+// 
 </script>
 
 <template>
